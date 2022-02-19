@@ -1,0 +1,11 @@
+function isPalindrome(x) {
+  x = x.toLowerCase();    
+  return x === x.split('').reverse().join('');
+   if(x == reverseString) {
+        console.log('It is a palindrome');
+    }
+    else {
+        console.log('It is not a palindrome');
+    }
+ }
+ //Is it a palindrome?
